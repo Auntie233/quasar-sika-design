@@ -61,7 +61,7 @@ spring:
 
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    sharding:
+    dynamic:
       enable: true
     hikari:
       # JDBC 配置(驱动类自动从url的mysql识别,数据源类型自动识别)

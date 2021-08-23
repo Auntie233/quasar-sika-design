@@ -253,28 +253,6 @@ const routes = [
     ]
   },
   {
-    path: '/profile/basic',
-    name: '/profile/basic',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      {
-        path: '',
-        component: () => import('pages/profile/basic')
-      }
-    ]
-  },
-  {
-    path: '/profile/advanced',
-    name: '/profile/advanced',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      {
-        path: '',
-        component: () => import('pages/profile/advanced')
-      }
-    ]
-  },
-  {
     path: '/account/center',
     name: '/account/center',
     component: () => import('layouts/MainLayout.vue'),
